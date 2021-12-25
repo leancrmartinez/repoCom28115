@@ -1,0 +1,206 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    background: rgb(134,134,134);
+    background: linear-gradient(0deg, rgba(134,134,134,1) 0%, rgba(253,54,39,1) 0%, rgba(241,106,30,1) 100%);
+    display: grid;
+    grid-template-columns: repeat(9, 1fr);
+    grid-template-rows: repeat(5, 2em);
+    align-items: center;
+}
+
+.navbar .logo {
+    width: 150px;
+    height: 150px;
+    grid-column: 2 / 3;
+    grid-row: 2 / 5;
+}
+
+.navbar .menu {
+    grid-column: 4 / 7;
+    grid-row: 4 / 5;
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(116, 0, 0);
+    padding: 0.5rem;
+}
+
+.navbar .menu li {
+    list-style: none;
+}
+
+.navbar .menu a {
+    text-decoration: none;
+    color: aliceblue;
+}
+.menu-bar {
+    display: none;
+}
+
+h3 {
+    color: gainsboro;
+    padding: 10px;
+    background: rgb(134,134,134);
+    background: linear-gradient(270deg, rgba(134,134,134,1) 0%, rgba(253,54,39,1) 0%, rgba(116,0,0,1) 100%);
+    transform: skew(-10deg, 0deg);
+}
+
+.section {
+    margin: 2rem;
+    padding: 5rem;
+    background-color: rgb(228, 228, 228);
+    background: radial-gradient(circle, rgba(134,134,134,1) 0%, rgba(228,228,228,1) 0%, rgba(199,199,199,1) 100%);
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(6, 8em);
+    justify-items: center;
+    align-items: center;
+    
+}
+
+.servicios {
+    margin: 2rem;
+    padding: 2rem;
+    background-color: rgb(228, 228, 228);
+    background: radial-gradient(circle, rgba(134,134,134,1) 0%, rgba(228,228,228,1) 0%, rgba(199,199,199,1) 100%);
+    display: flex;
+    justify-content: space-around;
+        
+}
+
+
+.sec_tienda {
+    margin: 1rem;
+    padding-top: 8rem;
+    background-color: rgb(228, 228, 228);
+    background: radial-gradient(circle, rgba(134,134,134,1) 0%, rgba(228,228,228,1) 0%, rgba(199,199,199,1) 100%);
+    display: grid;
+    grid-template-columns: repeat(8, minmax(auto, 1fr));
+    grid-template-rows: repeat(2, 1fr);
+    justify-items: center;  
+}
+
+.slide1 {
+    width: 25rem;
+}
+
+.producto1 {
+    padding: 2rem;
+    background: rgb(134,134,134);
+    background: radial-gradient(circle, rgba(134,134,134,1) 0%, rgba(207,207,207,1) 0%, rgba(148,201,198,1) 100%);
+    grid-column: 2 / 4;
+    grid-row: 1 / 2 ;
+    
+}
+
+.producto2 {
+    padding: 2rem;
+    background: rgb(134,134,134);
+    background: radial-gradient(circle, rgba(134,134,134,1) 0%, rgba(207,207,207,1) 0%, rgba(148,201,198,1) 100%);
+    grid-column: 6 / 8;
+    grid-row: 1;
+}
+
+.section_imagen {
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+}
+
+.section_text {
+    grid-column: 4 / 5;
+    grid-row: 2 / 3;
+}
+
+.section_imagen2 {
+    grid-column: 4 / 5;
+    grid-row: 5 / 6;
+}
+
+.section_text2 {
+    grid-column: 2 / 3;
+    grid-row: 5      / 6;
+}
+
+.section img {
+    width: 30rem;
+    height: 20rem;
+}
+
+.list_galeria {
+    display: flex;
+    background: rgb(134,134,134);
+    background: linear-gradient(0deg, rgba(134,134,134,1) 0%, rgba(228,228,228,1) 0%, rgba(189,183,107,1) 61%);
+    margin: 2rem;
+    padding: 10rem; 
+}
+
+.galeria img {
+    width: 35%;
+    height: 95%;
+}
+
+.faq {
+    margin: 1rem;
+    padding: 1rem;
+    background: rgb(228, 228, 228);
+    background: radial-gradient(circle, rgba(134,134,134,1) 0%, rgba(228,228,228,1) 0%, rgba(199,199,199,1) 100%);
+    display: grid;
+    grid-template-columns: repeat(9, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    
+}
+
+.faq1 {
+    grid-column: 2 / 9 ;
+    grid-row: 2 / 3;
+    
+}
+
+button{
+    height: 45px; 
+    padding-left: 5px;
+    padding-right: 5px;   
+    margin-bottom: 20px; 
+    margin-top: 10px;   
+    text-transform: uppercase;
+    background-color: #1ae2c1; 
+    border-color: #000000; 
+    border-style: solid; 
+    border-radius: 10px;  
+    width: 300px;   
+    cursor: pointer;
+  }
+
+
+.footer {
+    padding: 2rem;
+    background: rgb(134,134,134);
+    background: linear-gradient(0deg, rgba(134,134,134,1) 0%, rgba(27,27,27,1) 0%, rgba(0,88,170,1) 61%);
+    display: grid;
+    grid-template-columns: repeat(9, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    align-items: center;
+    
+}
+
+.footer img{
+    flex-wrap: wrap;
+    grid-column: 2 / 3;
+}
+
+.map {
+    grid-column: 8 / 9;
+    height: 18rem;
+    width: 12rem;
+
+}
+
+.footer p{
+    color: rgb(233, 233, 233);
+    grid-column: 7 / 8;
+    grid-row: 1;
+}

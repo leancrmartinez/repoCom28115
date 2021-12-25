@@ -1,0 +1,298 @@
+@media only screen and (max-width: 600px) {
+    
+    .navbar {
+        position: relative;
+    }
+
+    .navbar .menu-bar {
+        display: block;
+        grid-column: 8 / 9;
+        grid-row: 3 / 4;
+        font-size: 2em;
+        cursor: pointer;
+    }
+
+    .navbar .menu {
+        position: absolute;
+        width: 110%;
+        height: 70vh;
+        display: grid;
+        align-items: center;
+        background-color: rgba(253,54,39,1);
+        margin-top: 40em;
+        transform: translateX(200%);
+        transition: all 1s;
+        z-index: 200;
+    }
+
+    .navbar .menu li {
+        list-style: none;
+        margin: 0 auto;
+      }  
+      .navbar .menu li a {
+        text-decoration: none;
+        color: #181818;
+        font-size: 1.2em;
+      } 
+    
+
+    
+    .navbar .menu-toggle {
+        transform: translateX(82%)
+
+    }
+
+    .servicios {
+        margin: 1rem;
+        padding: 1rem;
+        background-color: rgb(228, 228, 228);
+        display: grid;
+        grid-template-columns: repeat(1, minmax(260px, 1fr));
+        grid-template-rows: repeat(2, 1fr);
+        align-content: center;
+        row-gap: 10em;
+    }
+
+    .serv1{ 
+        padding-top: 3rem;
+        grid-column: 1;
+        grid-row: 1;
+    }
+
+    .serv2 {
+        grid-column: 1;
+        grid-row: 2;
+    }
+    
+
+    .sec_tienda {
+        margin: 1rem;
+        padding: 1rem;
+        background-color: rgb(228, 228, 228);
+        background: radial-gradient(circle, rgba(134,134,134,1) 0%, rgba(228,228,228,1) 0%, rgba(199,199,199,1) 100%);
+        display: grid;
+        grid-template-columns: repeat(1, minmax(260px, 1fr));
+        grid-template-rows: repeat(2 , 1fr);
+        justify-items: center;
+        row-gap: 4rem;
+    }
+    
+    .producto1 {
+        padding: 1rem;
+        background: rgb(134,134,134);
+        background: radial-gradient(circle, rgba(134,134,134,1) 0%, rgba(207,207,207,1) 0%, rgba(148,201,198,1) 100%);
+        padding-top: 3rem;
+        grid-column: 1;
+        grid-row: 1;
+    }
+
+    .producto2 {
+        padding: 1rem;
+        background: rgb(134,134,134);
+        background: radial-gradient(circle, rgba(134,134,134,1) 0%, rgba(207,207,207,1) 0%, rgba(148,201,198,1) 100%);
+        grid-column: 1;
+        grid-row: 2;
+    }
+
+    .slide1 {
+        width: 15rem;
+    }
+    
+    
+    .section {
+        margin: 1rem;
+        padding: 1rem;
+        background-color: rgb(228, 228, 228);
+        display: grid;
+        grid-template-columns: repeat(3, minmax(260px, 1fr ));
+        grid-template-rows: repeat(4, 1fr);
+        justify-content: center;    
+    }
+    
+    .section img {
+        max-width: 100%;
+        max-height: 60%;
+
+    }
+
+    .section_imagen {
+        grid-column: 2 / 3;
+        grid-row: 1;
+    }
+    
+    .section_text {
+        grid-column: 2 /3;
+        grid-row: 2;
+    }
+    
+    .section_imagen2 {
+        grid-column: 2 / 3;
+        grid-row: 3;
+    }
+    
+    .section_text2 {
+        grid-column: 2 / 3;
+        grid-row: 4;
+    }
+
+    .galeria {
+        display: grid;
+        align-content: center;
+        justify-content: center;   
+    }
+    
+    .list_galeria {
+        background-color: darkkhaki;
+        margin: 1rem;
+        padding: 5rem; 
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .list_galeria img{
+        width: 150%;
+        
+    }
+    
+    
+    .footer {
+        padding: 1rem;
+        background-color: rgb(0, 88, 170);
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        align-items: center;
+
+    }
+
+    
+    .footer img{
+        grid-column: 1;
+        grid-row: 1;
+
+    }
+
+
+    .footer p{
+        color: rgb(233, 233, 233);
+        grid-column: 2;
+        grid-row: 2;
+        justify-items: start;
+        width: 100px;
+    
+    }
+    .map {
+        grid-column: 1;
+        grid-row: 2;
+        height: 18rem;
+        width: 12rem;
+    
+    } 
+
+
+    .main_form {
+        margin: 1rem;
+        padding: 1rem;
+        background-color: rgb(228, 228, 228) ;
+      }
+    
+    .contact_form{  
+        width: 300px; 
+        margin: 80px auto;
+        border-radius: 10px;  
+        padding-top: 30px;
+        padding-bottom: 20px;  
+        background-color: rgb(228, 228, 228); 
+        padding-left: 30px; 
+        height: auto;
+        display: grid;
+        justify-content: right;
+        align-items: right;
+    }
+
+    input{
+        background-color: rgb(228, 228, 228); 
+        width: 300px; 
+        height: 40px; 
+        border-radius: 5px;  
+        border-style: solid; 
+        border-width: 1px; 
+        border-color: #000000; 
+        margin-top: 10px;  
+        padding-left: 10px;
+        margin-bottom: 20px; 
+      }
+      
+      
+      textarea{
+        background-color: rgb(228, 228, 228); 
+        width: 300px; 
+        height: 150px; 
+        border-radius: 5px;  
+        border-style: solid; 
+        border-width: 1px; 
+        border-color: #000000; 
+        margin-top: 10px;  
+        padding-left: 10px;
+        margin-bottom: 20px; 
+        padding-top: 15px; 
+      }
+      
+      
+      label{
+        display: block; 
+        float: center;  
+      }
+      
+      
+      .button{
+        height: 45px; 
+        padding-left: 5px;
+        padding-right: 5px;   
+        margin-bottom: 20px; 
+        margin-top: 10px;   
+        text-transform: uppercase;
+        background-color: #e2311a; 
+        border-color: #e2311a; 
+        border-style: solid; 
+        border-radius: 10px;  
+        width: 300px;   
+        cursor: pointer;
+      }
+
+      button{
+        height: 45px; 
+        padding-left: 5px;
+        padding-right: 5px;   
+        margin-bottom: 20px; 
+        margin-top: 10px;   
+        text-transform: uppercase;
+        background-color: #1ae2c1; 
+        border-color: #000000; 
+        border-style: solid; 
+        border-radius: 10px;  
+        width: 300px;   
+        cursor: pointer;
+      }
+      
+
+      .faq {
+        margin: 1rem;
+        padding: 1rem;
+        background: rgb(228, 228, 228);
+        background: radial-gradient(circle, rgba(134,134,134,1) 0%, rgba(228,228,228,1) 0%, rgba(199,199,199,1) 100%);
+        display: grid;
+        grid-template-columns: repeat(9, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        
+    }
+
+    .faq1 {
+        padding-top: 1rem;
+        padding-bottom: 2rem;
+        grid-column: 2 / 9 ;
+        grid-row: 1 / 3;
+        
+    }
+
+}

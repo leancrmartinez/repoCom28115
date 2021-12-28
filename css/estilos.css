@@ -19,8 +19,6 @@ h3 {
 }
 
 .section {
-    margin: 2rem;
-    padding: 5rem;
     background-color: rgb(228, 228, 228);
     background: radial-gradient(circle, rgba(134,134,134,1) 0%, rgba(228,228,228,1) 0%, rgba(199,199,199,1) 100%);
     
@@ -39,40 +37,29 @@ h3 {
 
 
 .sec_tienda {
-    margin: 1rem;
-    padding-top: 8rem;
     background-color: rgb(228, 228, 228);
     background: radial-gradient(circle, rgba(134,134,134,1) 0%, rgba(228,228,228,1) 0%, rgba(199,199,199,1) 100%);
-    display: grid;
-    grid-template-columns: repeat(8, minmax(auto, 1fr));
-    grid-template-rows: repeat(2, 1fr);
-    justify-items: center;  
+    
 }
 
-.slide1 {
-    width: 25rem;
-}
 
 .producto1 {
-    padding: 2rem;
+    
     background: rgb(134,134,134);
     background: radial-gradient(circle, rgba(134,134,134,1) 0%, rgba(207,207,207,1) 0%, rgba(148,201,198,1) 100%);
-    grid-column: 2 / 4;
-    grid-row: 1 / 2 ;
+
     
 }
 
 .producto2 {
-    padding: 2rem;
+  
     background: rgb(134,134,134);
     background: radial-gradient(circle, rgba(134,134,134,1) 0%, rgba(207,207,207,1) 0%, rgba(148,201,198,1) 100%);
-    grid-column: 6 / 8;
-    grid-row: 1;
+    
 }
 
 
 .list_galeria {
-    padding: 3rem;
     background: rgb(134,134,134);
     background: linear-gradient(0deg, rgba(134,134,134,1) 0%, rgba(228,228,228,1) 0%, rgba(189,183,107,1) 61%);
     

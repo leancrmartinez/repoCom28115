@@ -18,6 +18,7 @@ h3 {
     transform: skew(-10deg, 0deg);
 }
 
+
 .section {
     background-color: rgb(228, 228, 228);
     background: radial-gradient(circle, rgba(134,134,134,1) 0%, rgba(228,228,228,1) 0%, rgba(199,199,199,1) 100%);
@@ -26,13 +27,9 @@ h3 {
 
 
 .servicios {
-    margin: 2rem;
-    padding: 2rem;
     background-color: rgb(228, 228, 228);
     background: radial-gradient(circle, rgba(134,134,134,1) 0%, rgba(228,228,228,1) 0%, rgba(199,199,199,1) 100%);
-    display: flex;
-    justify-content: space-around;
-        
+            
 }
 
 
@@ -66,21 +63,11 @@ h3 {
 }
 
 .faq {
-    margin: 1rem;
-    padding: 1rem;
     background: rgb(228, 228, 228);
     background: radial-gradient(circle, rgba(134,134,134,1) 0%, rgba(228,228,228,1) 0%, rgba(199,199,199,1) 100%);
-    display: grid;
-    grid-template-columns: repeat(9, 1fr);
-    grid-template-rows: repeat(3, 1fr);
-    
+       
 }
 
-.faq1 {
-    grid-column: 2 / 9 ;
-    grid-row: 2 / 3;
-    
-}
 
 abutton{
     height: 45px; 

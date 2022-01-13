@@ -1,0 +1,25 @@
+{
+  "name": "paquete-28115",
+  "version": "1.0.0",
+  "description": "proyecto-coder",
+  "main": "index.js",
+  "devDependencies": {
+    "node-sass": "^7.0.1",
+    "nodemon": "^2.0.15"
+  },
+  "scripts": { 
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-patch scss scss/main.scss css/main.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leancrmartinez/repoCom28115.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/leancrmartinez/repoCom28115/issues"
+  },
+  "homepage": "https://github.com/leancrmartinez/repoCom28115#readme"
+}

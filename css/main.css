@@ -1,3 +1,42 @@
+.navbar {
+  background: #868686;
+  background: linear-gradient(0deg, #868686 0%, #fd3627 0%, #f16a1e 100%); }
+
+h3 {
+  color: gainsboro;
+  padding: 10px;
+  background: #868686;
+  background: linear-gradient(270deg, #868686 0%, #fd3627 0%, #740000 100%);
+  transform: skew(-10deg, 0deg); }
+
+.section {
+  background-color: #e4e4e4;
+  background: radial-gradient(circle, #868686 0%, #e4e4e4 0%, #c7c7c7 100%); }
+
+.servicios {
+  background-color: #e4e4e4;
+  background: radial-gradient(circle, #868686 0%, #e4e4e4 0%, #c7c7c7 100%); }
+
+.sec_tienda {
+  background-color: #e4e4e4;
+  background: radial-gradient(circle, #868686 0%, #e4e4e4 0%, #c7c7c7 100%); }
+
+.producto1 {
+  background: #868686;
+  background: radial-gradient(circle, #868686 0%, #cfcfcf 0%, #94c9c6 100%); }
+
+.producto2 {
+  background: #868686;
+  background: radial-gradient(circle, #868686 0%, #cfcfcf 0%, #94c9c6 100%); }
+
+.list_galeria {
+  background: #868686;
+  background: linear-gradient(0deg, #868686 0%, #e4e4e4 0%, darkkhaki 61%); }
+
+.faq {
+  background: #e4e4e4;
+  background: radial-gradient(circle, #868686 0%, #e4e4e4 0%, #c7c7c7 100%); }
+
 .footer {
   padding: 2rem;
   background: #868686;

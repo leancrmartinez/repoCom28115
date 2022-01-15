@@ -1,19 +1,2 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
 
-
-abutton{
-    height: 45px; 
-    padding-left: 5px;
-    padding-right: 5px;   
-    margin-bottom: 20px; 
-    margin-top: 10px;   
-    text-transform: uppercase;
-    background-color: #1ae2c1; 
-    border-radius: 10px;  
-    width: 300px;   
-    cursor: pointer;
-  }
 

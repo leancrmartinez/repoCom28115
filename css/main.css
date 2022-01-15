@@ -17,17 +17,17 @@ h3 {
   background-color: #e4e4e4;
   background: radial-gradient(circle, #868686 0%, #e4e4e4 0%, #c7c7c7 100%); }
 
-.sec_tienda {
+.tienda {
   background-color: #e4e4e4;
   background: radial-gradient(circle, #868686 0%, #e4e4e4 0%, #c7c7c7 100%); }
 
-.producto1 {
-  background: #868686;
-  background: radial-gradient(circle, #868686 0%, #cfcfcf 0%, #94c9c6 100%); }
+  .tienda__producto1 {
+     background: #868686;
+     background: radial-gradient(circle, #868686 0%, #cfcfcf 0%, #94c9c6 100%); }
 
-.producto2 {
-  background: #868686;
-  background: radial-gradient(circle, #868686 0%, #cfcfcf 0%, #94c9c6 100%); }
+  .tienda__producto2 {
+     background: #868686;
+     background: radial-gradient(circle, #868686 0%, #cfcfcf 0%, #94c9c6 100%); }
 
 .list_galeria {
   background: #868686;

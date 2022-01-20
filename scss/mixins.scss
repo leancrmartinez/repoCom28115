@@ -24,11 +24,15 @@
     @include theme;
   }
 
-@mixin theme($theme2: color) {
+@mixin theme2($theme2: color) {
     background-color: rgb(228, 228, 228);
     background: radial-gradient(circle, rgba(134,134,134,1) 0%, rgba(228,228,228,1) 0%, rgba(199,199,199,1) 100%);
   }
  
   .section {
-      @include theme
+      @include theme2
+  }
+
+  .servicios {
+      @include theme2
   }

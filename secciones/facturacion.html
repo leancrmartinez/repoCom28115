@@ -12,21 +12,47 @@
 </head>
 <body>
     <div hidden></div>
+    <!--comienzo del header-->
     <header>
-        <nav class="navbar">
-            <img src="../assets/logo.png" class="logo" alt="mi sitio 365">
-            <ul class="menu" id="menu">
-                <li><a href="../index.html">Home</a></li>
-                <li><a href="./tienda.html">Tienda</a></li>
-                <li><a href="./servicios.html">Servicios</a></li>
-                <li><a href="./faq.html">Faq</a></li>
-                <li><a href="./contacto.html">Contacto</a></li>
-            </ul>
-            <div class="menu-bar" id="menu-bar">
-                <i class="fas fa-bars"></i>
+        <nav class="navbar navbar-expand-lg navbar-dark"> <!--comienzo barra de navegacion-->
+            <div class="container-fluid">
+                <a class="navbar-brand" href="./index.html">
+                    <img src="./assets/logo.png" alt="" width="150" height="150">
+                </a>
             </div>
-         </nav>
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./secciones/tienda.html">Tienda</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./secciones/servicios.html">Servicios</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./secciones/faq.html">Preguntas</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./secciones/contacto.html">Contacto</a>
+                        </li>
+                    </ul> <!--final de barra de navegacion-->
+                    <form class="d-flex">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
     </header>
+    <!--header fin-->
        <img src="../assets/FormFacturacion.png" alt="FormFacturacion">
        <footer class="footer">
         <img src="../assets/logo.png" height="150px" alt="logo footer">

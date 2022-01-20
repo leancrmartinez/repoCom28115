@@ -1,10 +1,22 @@
 
 @import "/css/parciales/reset"
 
-.navbar {
-    background: rgb(134,134,134);
-    background: linear-gradient(0deg, rgba(134,134,134,1) 0%, rgba(253,54,39,1) 0%, rgba(241,106,30,1) 100%);
-}
+@import "/css/parciales/header"
+
+@import "/css/parciales/section"
+
+@import "/css/parciales/servicios"
+
+@import "/css/parciales/tienda"
+
+@import "/css/parciales/list_galeria"
+
+@import "/css/parciales/faq"
+
+@import "/css/parciales/footer"
+
+
+
 
 
 h3 {
@@ -16,65 +28,19 @@ h3 {
 }
 
 
-.section {
-    background-color: rgb(228, 228, 228);
-    background: radial-gradient(circle, rgba(134,134,134,1) 0%, rgba(228,228,228,1) 0%, rgba(199,199,199,1) 100%);
-    
-}
-
-
-.servicios {
-    background-color: rgb(228, 228, 228);
-    background: radial-gradient(circle, rgba(134,134,134,1) 0%, rgba(228,228,228,1) 0%, rgba(199,199,199,1) 100%);
-            
-}
-
-
-.tienda {
-    background-color: rgb(228, 228, 228);
-    background: radial-gradient(circle, rgba(134, 134, 134, 1) 0%, rgba(228, 228, 228, 1) 0%, rgba(199, 199, 199, 1) 100%);
-
-    &__producto1 {
-
-        background: rgb(134, 134, 134);
-        background: radial-gradient(circle, rgba(134, 134, 134, 1) 0%, rgba(207, 207, 207, 1) 0%, rgba(148, 201, 198, 1) 100%);
-
-
-    }
-
-    &__producto2 {
-
-        background: rgb(134, 134, 134);
-        background: radial-gradient(circle, rgba(134, 134, 134, 1) 0%, rgba(207, 207, 207, 1) 0%, rgba(148, 201, 198, 1) 100%);
-
-    }
-}
 
 
 
 
 
-.list_galeria {
-    background: rgb(134,134,134);
-    background: linear-gradient(0deg, rgba(134,134,134,1) 0%, rgba(228,228,228,1) 0%, rgba(189,183,107,1) 61%);
-    
-}
-
-.faq {
-    background: rgb(228, 228, 228);
-    background: radial-gradient(circle, rgba(134,134,134,1) 0%, rgba(228,228,228,1) 0%, rgba(199,199,199,1) 100%);
-       
-}
-
-.footer {
-    padding: 2rem;
-    background: rgb(134, 134, 134);
-    background: linear-gradient(0deg, rgba(134, 134, 134, 1) 0%, rgba(27, 27, 27, 1) 0%, rgba(0, 88, 170, 1) 61%);
 
 
 
-    p {
-        color: rgb(233, 233, 233);
 
-    }
-}
+
+
+
+
+
+
+

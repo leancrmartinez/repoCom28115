@@ -4,6 +4,30 @@
   color: black;
 }
 
+.servicios {
+  border-radius: 10px;
+  border-color: 10px;
+  color: black;
+}
+
+.tienda {
+  border-radius: 10px;
+  border-color: 10px;
+  color: black;
+}
+
+.faq {
+  border-radius: 10px;
+  border-color: 10px;
+  color: black;
+}
+
+.list_galeria {
+  border-radius: 10px;
+  border-color: 10px;
+  color: black;
+}
+
 .footer {
   padding: 2rem;
   background: #868686;

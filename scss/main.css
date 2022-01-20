@@ -1,27 +1,8 @@
+@import url(c:\Users\Administrador\Desktop\Coder House\Comision22115\proyecto - npm\scss\maps.css);
 .navbar {
   background: #868686;
   background: -webkit-gradient(linear, left bottom, left top, from(#868686), color-stop(0%, #fd3627), to(#f16a1e));
   background: linear-gradient(0deg, #868686 0%, #fd3627 0%, #f16a1e 100%);
-}
-
-h3 {
-  color: gainsboro;
-  padding: 10px;
-  background: #868686;
-  background: -webkit-gradient(linear, right top, left top, from(#868686), color-stop(0%, #fd3627), to(#740000));
-  background: linear-gradient(270deg, #868686 0%, #fd3627 0%, #740000 100%);
-  -webkit-transform: skew(-10deg, 0deg);
-          transform: skew(-10deg, 0deg);
-}
-
-.section {
-  background-color: #e4e4e4;
-  background: radial-gradient(circle, #868686 0%, #e4e4e4 0%, #c7c7c7 100%);
-}
-
-.servicios {
-  background-color: #e4e4e4;
-  background: radial-gradient(circle, #868686 0%, #e4e4e4 0%, #c7c7c7 100%);
 }
 
 .tienda {
@@ -50,11 +31,37 @@ h3 {
   background: radial-gradient(circle, #868686 0%, #e4e4e4 0%, #c7c7c7 100%);
 }
 
+.section {
+  border-radius: 10px;
+  border-color: 10px;
+  color: black;
+}
+
 .footer {
   padding: 2rem;
   background: #868686;
   background: -webkit-gradient(linear, left bottom, left top, from(#868686), color-stop(0%, #1b1b1b), color-stop(61%, #0058aa));
   background: linear-gradient(0deg, #868686 0%, #1b1b1b 0%, #0058aa 61%);
+}
+
+.section {
+  background-color: #e4e4e4;
+  background: radial-gradient(circle, #868686 0%, #e4e4e4 0%, #c7c7c7 100%);
+}
+
+.servicios {
+  background-color: #e4e4e4;
+  background: radial-gradient(circle, #868686 0%, #e4e4e4 0%, #c7c7c7 100%);
+}
+
+h3 {
+  color: gainsboro;
+  padding: 10px;
+  background: #868686;
+  background: -webkit-gradient(linear, right top, left top, from(#868686), color-stop(0%, #fd3627), to(#740000));
+  background: linear-gradient(270deg, #868686 0%, #fd3627 0%, #740000 100%);
+  -webkit-transform: skew(-10deg, 0deg);
+          transform: skew(-10deg, 0deg);
 }
 
 .footer p {

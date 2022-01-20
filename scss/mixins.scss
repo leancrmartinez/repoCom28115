@@ -12,6 +12,22 @@
     @include border-radius(10px);
   }
 
+  .servicios {
+    @include border-radius(10px);
+  }
+
+  .tienda {
+    @include border-radius(10px);
+  }
+
+  .faq {
+    @include border-radius(10px);
+  }
+
+  .list_galeria {
+    @include border-radius(10px);
+  }
+
  
 
 @mixin theme($theme: color) {

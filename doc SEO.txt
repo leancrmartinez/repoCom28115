@@ -1,0 +1,7 @@
+ en el archivo index.html sumé el SEO con las siguientes características:
+
+*Descripción: mediante la etiqueta meta name description, agregué el siguiente párrafo que explica en pocas palabras el contenido de mi sitio: “Impresiones 3d de calidad, descubre en nuestro sitio lo que debes saber acerca de la impresion 3d y todas sus ventajas ofrecemos servicio de impresion y modelado 3d, ademas tenemos un amplio catalogo de productos"
+
+*Palabras clave: mediante la etiqueta meta name keywords, agregué las palabras clave que acompañarán a todas las páginas de mi sitio: "Impresion 3d, Mi Sitio 365, Modelado 3d, Repuestos 3d,"
+
+*Encabezado: para el encabezado del h1 utilicé el texto “Mi Sitio 365”

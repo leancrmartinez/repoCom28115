@@ -1,15 +1,13 @@
 
-@import "../css/parciales/header";
+@import "../parciales/_header.scss";
 
-@import "../css/parciales/tienda";
+@import "../parciales/faq";
 
-@import "../css/parciales/list_galeria";
+@import "../parciales/list_galeria";
 
-@import "../css/parciales/faq";
+@import "../parciales/tienda";
 
 @import "../scss/mixins.scss";
-
-@import "../scss/maps";
 
 
 
@@ -31,9 +29,7 @@ h3 {
 }
 
 
-h1 {
-    hidden
-}
+
 
 
 

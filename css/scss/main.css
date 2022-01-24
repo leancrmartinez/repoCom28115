@@ -1,8 +1,18 @@
-@import url(c:\Users\Administrador\Desktop\Coder House\Comision22115\proyecto - npm\scss\maps.css);
 .navbar {
   background: #868686;
   background: -webkit-gradient(linear, left bottom, left top, from(#868686), color-stop(0%, #fd3627), to(#f16a1e));
   background: linear-gradient(0deg, #868686 0%, #fd3627 0%, #f16a1e 100%);
+}
+
+.faq {
+  background: #e4e4e4;
+  background: radial-gradient(circle, #868686 0%, #e4e4e4 0%, #c7c7c7 100%);
+}
+
+.list_galeria {
+  background: #868686;
+  background: -webkit-gradient(linear, left bottom, left top, from(#868686), color-stop(0%, #e4e4e4), color-stop(61%, darkkhaki));
+  background: linear-gradient(0deg, #868686 0%, #e4e4e4 0%, darkkhaki 61%);
 }
 
 .tienda {
@@ -20,18 +30,31 @@
   background: radial-gradient(circle, #868686 0%, #cfcfcf 0%, #94c9c6 100%);
 }
 
-.list_galeria {
-  background: #868686;
-  background: -webkit-gradient(linear, left bottom, left top, from(#868686), color-stop(0%, #e4e4e4), color-stop(61%, darkkhaki));
-  background: linear-gradient(0deg, #868686 0%, #e4e4e4 0%, darkkhaki 61%);
+.section {
+  border-radius: 10px;
+  border-color: 10px;
+  color: black;
+}
+
+.servicios {
+  border-radius: 10px;
+  border-color: 10px;
+  color: black;
+}
+
+.tienda {
+  border-radius: 10px;
+  border-color: 10px;
+  color: black;
 }
 
 .faq {
-  background: #e4e4e4;
-  background: radial-gradient(circle, #868686 0%, #e4e4e4 0%, #c7c7c7 100%);
+  border-radius: 10px;
+  border-color: 10px;
+  color: black;
 }
 
-.section {
+.list_galeria {
   border-radius: 10px;
   border-color: 10px;
   color: black;

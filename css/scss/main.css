@@ -30,6 +30,44 @@
   background: radial-gradient(circle, #868686 0%, #cfcfcf 0%, #94c9c6 100%);
 }
 
+h3 {
+  color: gainsboro;
+  padding: 10px;
+  background: #868686;
+  background: -webkit-gradient(linear, right top, left top, from(#868686), color-stop(0%, #fd3627), to(#740000));
+  background: linear-gradient(270deg, #868686 0%, #fd3627 0%, #740000 100%);
+  -webkit-transform: skew(-10deg, 0deg);
+          transform: skew(-10deg, 0deg);
+}
+
+.footer p {
+  color: #e9e9e9;
+}
+
+h1 {
+  font-size: 3em;
+}
+
+h2 {
+  font-size: 2.5em;
+}
+
+h3 {
+  font-size: 2em;
+}
+
+h4 {
+  font-size: 1.5em;
+}
+
+h5 {
+  font-size: 1em;
+}
+
+h6 {
+  font-size: 0.5em;
+}
+
 .section {
   border-radius: 10px;
   border-color: 10px;
@@ -75,19 +113,5 @@
 .servicios {
   background-color: #e4e4e4;
   background: radial-gradient(circle, #868686 0%, #e4e4e4 0%, #c7c7c7 100%);
-}
-
-h3 {
-  color: gainsboro;
-  padding: 10px;
-  background: #868686;
-  background: -webkit-gradient(linear, right top, left top, from(#868686), color-stop(0%, #fd3627), to(#740000));
-  background: linear-gradient(270deg, #868686 0%, #fd3627 0%, #740000 100%);
-  -webkit-transform: skew(-10deg, 0deg);
-          transform: skew(-10deg, 0deg);
-}
-
-.footer p {
-  color: #e9e9e9;
 }
 /*# sourceMappingURL=main.css.map */

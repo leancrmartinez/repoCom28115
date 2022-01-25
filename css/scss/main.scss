@@ -136,11 +136,32 @@ h6 {
 
 //   fin mixins
 
+// extends
+
+%message-buy {
+    border: 2px solid #ccc;
+    padding: 10px;
+    color: #333;
+    background: aquamarine;
+  }
+
+%message-back {
+    border: 2px solid #ccc;
+    padding: 10px;
+    color: rgb(255, 255, 255);
+    background: tomato; 
+  }
 
 
+  .buttonp {
+    @extend %message-buy;
+  }
 
+  .buttons {
+    @extend %message-back;   
+  }
 
-
+// fin extend
 
 
 

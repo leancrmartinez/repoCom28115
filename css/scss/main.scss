@@ -26,6 +26,14 @@ h3 {
     }
 }
 
+.bar-social {
+  background-color: rgb(62, 75, 110);
+  border: solid rgb(0, 0, 0) 1px;
+  i {
+    color: white;
+  }
+}
+
 
 // mapas
 
@@ -133,6 +141,7 @@ h6 {
   .servicios {
       @include theme2
   }
+
 
 //   fin mixins
 
